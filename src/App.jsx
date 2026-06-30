@@ -49,7 +49,7 @@ function App() {
         <p>{product.description}</p>
       </div><br /><br /><br />
 
-      <h1>All product</h1>
+      <h1>All products</h1>
       <div>
         {
           products.map((pro, i) => (
