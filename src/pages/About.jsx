@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CustomButton } from "./Components/CustomButton";
+import { CustomButton } from "../Components/CustomButton";
 
 function About() {
     const [name, setName] = useState("favour");
