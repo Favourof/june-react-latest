@@ -28,7 +28,7 @@ function App() {
 
         <Route path="/dashboard" element={<Dashboard />} >
           <Route path="" element={<Home />} />
-          <Route path="profile" element={<Profile />} />
+          <Route path="profile/:name/:age/:country" element={<Profile />} />
           <Route path="setting" element={<Settings />} />
         </Route>
       </Routes>
