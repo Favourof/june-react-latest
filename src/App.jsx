@@ -7,6 +7,7 @@ import { ErrorPage } from "./pages/ErrorPage"
 import { Dashboard } from "./pages/Dashboard"
 import { Profile } from "./pages/Dashboard/Profile"
 import { Settings } from "./pages/Dashboard/Settings"
+import { Product } from "./pages/Product"
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/product" element={<Product />} />
 
         <Route path="*" element={<ErrorPage />} />
 
