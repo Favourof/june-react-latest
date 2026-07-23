@@ -8,6 +8,7 @@ import { Dashboard } from "./pages/Dashboard"
 import { Profile } from "./pages/Dashboard/Profile"
 import { Settings } from "./pages/Dashboard/Settings"
 import { Product } from "./pages/Product"
+import { AddProduct } from "./pages/Dashboard/AddProduct"
 
 
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="" element={<Home />} />
           <Route path="profile/:name/:age/:country" element={<Profile />} />
           <Route path="setting" element={<Settings />} />
+          <Route path="add-product" element={<AddProduct />} />
         </Route>
       </Routes>
     </div>
